@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%
+}
+
+.logo{
+    padding-left: 7rem;
+}
+.nextgen-div{
+    padding-bottom: 5rem;
+}
+
+.next-gen-el{
+    padding-left: 7rem;
+    padding-top: 8rem;
+}
+
+.gen-nextgen-img{
+    /* position: relative; */
+    /* bottom: 5rem; */
+    /* left: rem; */
+}
+
+.nextgen-img{
+    /* position: absolute; */
+    /* z-index: 2; */
+}
+.nextgen-img-two{
+    position: absolute;
+    right: 0.3rem;
+    z-index: 1;
+}
+
+.why-choose{
+    padding-top: 5rem;
+}
+
+.row-two{
+    background-color: rgb(242, 247, 247);
+    padding-bottom: 5rem;
+}
+
+.row-three{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}

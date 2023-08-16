@@ -8,6 +8,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
 <title>Easybank-landing-page</title>
 </head>
 
@@ -16,12 +19,12 @@
 <header class="">
     <div class="row pt-4 pb-2">
         <div class="col logo"><img src="./img/logo.svg" alt=""></div>
-        <div class="col-6">
-          <button type="button" class="btn btn-link">Home</button>
-          <button type="button" class="btn btn-link">About</button>
-          <button type="button" class="btn btn-link">Contact</button>
-          <button type="button" class="btn btn-link">Blog</button>
-          <button type="button" class="btn btn-link">Careers</button>
+        <div class="col-6 header-btn">
+          <button type="button" class="btn header-btn">Home</button>
+          <button type="button" class="btn header-btn">About</button>
+          <button type="button" class="btn header-btn">Contact</button>
+          <button type="button" class="btn header-btn">Blog</button>
+          <button type="button" class="btn header-btn">Careers</button>
         </div>
         <div class="col">
             <button class="border no-border bg-white rounded-pill p-2">Request Invite</button>
@@ -79,36 +82,37 @@
 </div>
 </div>
 </div>
+
 <!-- 3rd row -->
 <div class="row-three">
   <div class="container">
 <div class="row">
     <h3> Latest Articles</h3>
     <div class="col">
-      <img src="./img/image-currency.jpg" alt="" class="w-25">
-       <p>By Claire Robinson</p>
-        <a href=""> Receive money in any currency with no fees</a>
+      <img src="./img/image-currency.jpg" alt="" class="w-75">
+       <p class="small">By Claire Robinson</p>
+        <p class=""><a href=""> Receive money in any currency with no fees</a></p>
            <p> The world is getting smaller and we’re becoming more mobile. So why should you be 
             forced to only receive money in a single …</p>
     </div>
     <div class="col">
-      <img src="./img/image-restaurant.jpg" alt="" class="w-25">
-       <p>By Wilson Hutton</p>
-        <a href=""> Treat yourself without worrying about money</a>
+      <img src="./img/image-restaurant.jpg" alt="" class="w-75">
+       <p class="small">By Wilson Hutton</p>
+        <p><a href=""> Treat yourself without worrying about money</a></p> 
             <p> Our simple budgeting feature allows you to separate out your spending and set 
             realistic limits each month. That means you …</p>
     </div>
     <div class="col">
-      <img src="./img/image-plane.jpg" alt="" class="w-25">
-        <p>By Wilson Hutton</p>
-        <a href=""> Take your Easybank card wherever you go</a>
+      <img src="./img/image-plane.jpg" alt="" class="w-75">
+        <p class="small">By Wilson Hutton</p>
+        <p><a href=""> Take your Easybank card wherever you go</a></p>
           <p>  We want you to enjoy your travels. This is why we don’t charge any fees on purchases 
             while you’re abroad. We’ll even show you …</p>
     </div>
     <div class="col">
-      <img src="./img/image-confetti.jpg" alt="" class="w-25">
-        <p>By Claire Robinson</p>
-        <a href=""> Our invite-only Beta accounts are now live!</a>
+      <img src="./img/image-confetti.jpg" alt="" class="w-75">
+        <p class="small">By Claire Robinson</p>
+        <p> <a href=""> Our invite-only Beta accounts are now live!</a></p>
            <p> After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
             It’s easy to request an invite through the site ...
           </p>
@@ -120,60 +124,62 @@
 </main>
 
 <!-- the footer section -->
-    <footer class="bg-light text-center text-lg-start">
+    <footer class="gen-footer">
+      <div class="container">
           <div class="row">
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h4>easybank</h4>
-              <!-- fceebook -->
-              <a href="">
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0 d-grid">
+              <img src="./img/logo.svg" alt="" class="footer-logo pb-5">
+              <div class="">
+              <!-- faceebook -->
+              <a href="" class="text-decoration-none">
                 <img src="./img/icon-facebook.svg" alt="">
               </a>
               <!-- youtube -->
-              <a href="">
+              <a href="" class="text-decoration-none">
                 <img src="./img/icon-youtube.svg" alt="">
               </a>
               <!-- twitter -->
-              <a href="">
+              <a href="" class="text-decoration-none">
                 <img src="./img/icon-twitter.svg" alt="">
               </a>
               <!-- pintrest -->
-              <a href="">
+              <a href="" class="text-decoration-none">
                 <img src="./img/icon-pinterest.svg" alt="">
               </a>
               <!-- instagram -->
-              <a href="">
+              <a href="" class="text-decoration-none">
                 <img src="./img/icon-instagram.svg" alt="">
               </a>
             </div>
-            <!--Grid column-->
-      
-            <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <a href="">About Us</a><br>
-              <a href="">contact</a><br>
-              <a href="">Blog</a>
             </div>
             <!--Grid column-->
       
             <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <a href="">Careers</a><br>
-              <a href="">Support </a><br>
-              <a href="">Privacy Policy</a>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0 d-grid">
+              <a href="" class="text-decoration-none text-white">About Us</a>
+              <a href="" class="text-decoration-none text-white">contact</a>
+              <a href="" class="text-decoration-none text-white">Blog</a>
             </div>
             <!--Grid column-->
       
             <!--Grid column-->
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <button class="border no-border bg-white rounded-pill p-2"> Request Invite</button> <br>
-              <a class="text-dark" href="https://mdbootstrap.com/"> © Easybank. All Rights Reserved</a>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0 d-grid">
+              <a href=""class="text-decoration-none text-white">Careers</a>
+              <a href="" class="text-decoration-none text-white">Support </a>
+              <a href="" class="text-decoration-none text-white">Privacy Policy</a>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-3 d-grid">
+              <button class="border no-border bg-white rounded-pill footer-btn"> Request Invite</button>
+              <a class="last-a small pt-4" href="https://mdbootstrap.com/"> © Easybank. All Rights Reserved</a>
             </div>
             <!--Grid column-->
           </div>
-        <!-- <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);"> -->
-        <!-- Copyright -->
+      </div>
       </footer>
-</div> -->
+</div>
 
 
 

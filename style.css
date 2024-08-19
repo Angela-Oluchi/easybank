@@ -5,6 +5,13 @@
 }
 body{
     font-family: 'Public Sans', sans-serif;
+    width: 100%;
+}
+/* all the items in the navbar; logo, hamburger, button */
+.navbar{
+position: relative;
+z-index: 3;
+background-color: #ffffff;
 }
 
 .logo{
@@ -14,43 +21,48 @@ body{
     color: hsl(233, 8%, 62%);
 }
 
+/* first section */
 .nextgen-div{
-    padding-bottom: 5rem;
+    max-height: 20%   ;
+
 }
 
 .next-gen-el{
-    padding-left: 7rem;
-    padding-top: 8rem;
+    padding:80px 0 0 100px;
 }
-
-/* .gen-nextgen-img{
+/* the background image with phone */
+/* image 1 */
+.nextgen-img{
     position: relative;
-    bottom: 5rem;
-    left: 1rem;
-} */
-
-/* .nextgen-img{
-    position: absolute;
-    z-index: 2;
-} */
+    bottom: 130px;
+    /* width: 100%; */
+    z-index: 1;
+   
+}
+/* image 2 */
 .nextgen-img-two{
     position: absolute;
-    right: 0.3rem;
-    z-index: 1;
+    width: 40%;
+    bottom: 3px;
+    right: 30px;
+    z-index: 2;
 }
-
-.why-choose{
-    padding-top: 5rem;
-}
-
+/* 2nd section */
 .row-two{
-    background-color: rgb(242, 247, 247);
     padding-bottom: 5rem;
+    width: 100%;
+    /* border: 1px solid red; */
+    /* margin-top: 100px; */
+    padding:100px 0 100px 100px;
+    background-color: rgb(234, 241, 241);
+
 }
 
 .row-three{
-    padding-top: 5rem;
+    padding-top: 5rem; 
     padding-bottom: 5rem;
+    
+
 }
 
 .gen-footer{
@@ -69,4 +81,11 @@ body{
 .last-a{
     text-decoration: none;
     color: hsl(233, 8%, 62%);
+}
+/* request invite button */
+.reqinv{
+    background-image: linear-gradient( to right, #33D35E, #2AB5D8 );
+    color: #ffffff;
+    
+
 }
